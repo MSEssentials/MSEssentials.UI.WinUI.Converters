@@ -1,0 +1,40 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0-windows10.0.19041.0</TargetFramework>
+        <TargetPlatformMinVersion>10.0.17763.0</TargetPlatformMinVersion>
+        <RootNamespace>SimpleToolkit.UI.WinUI.Converters</RootNamespace>
+        <RuntimeIdentifiers>win10-x86;win10-x64;win10-arm64</RuntimeIdentifiers>
+        <UseWinUI>true</UseWinUI>
+        <UseRidGraph>true</UseRidGraph>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <EnableCoreMrtTooling Condition=" '$(BuildingInsideVisualStudio)' != 'true' ">false</EnableCoreMrtTooling>
+        <Nullable>enable</Nullable>
+        <Title>SimpleToolkit.UI.WinUI.Converters</Title>
+        <Authors>Mateusz Skoczek</Authors>
+        <Copyright>Mateusz Skoczek</Copyright>
+        <PackageProjectUrl>https://repos.mateuszskoczek.com/SimpleToolkit/</PackageProjectUrl>
+        <PackageLicenseUrl>https://repos.mateuszskoczek.com/SimpleToolkit/SimpleToolkit.UI.WinUI.Converters/src/branch/main/LICENSE</PackageLicenseUrl>
+        <PackageIcon>icon.png</PackageIcon>
+        <RepositoryUrl>https://repos.mateuszskoczek.com/SimpleToolkit/SimpleToolkit.UI.WinUI.Converters</RepositoryUrl>
+        <Description>Set of helpers, class extensions, UI controls used in my other C# projects - XAML value converters for WinUI applications</Description>
+        <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Update="icon.png">
+            <Pack>True</Pack>
+            <PackagePath></PackagePath>
+        </None>
+        <None Update="README.md">
+            <Pack>True</Pack>
+            <PackagePath></PackagePath>
+        </None>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.WindowsAppSDK" Version="1.4.240211001" />
+    </ItemGroup>
+
+
+</Project>
