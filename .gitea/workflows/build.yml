@@ -5,13 +5,13 @@ on:
     branches:
       - "dev"
     paths:
-      - "SimpleToolkit.UI.WinUI.Converters**"
+      - "MSEssentials.UI.WinUI.Converters**"
   pull_request:
     branches:
       - "dev"
       - "main"
     paths:
-      - "SimpleToolkit.UI.WinUI.Converters**"
+      - "MSEssentials.UI.WinUI.Converters**"
 
 jobs:
   build:

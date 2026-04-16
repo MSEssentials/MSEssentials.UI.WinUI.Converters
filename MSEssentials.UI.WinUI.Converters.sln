@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleToolkit.UI.WinUI.Converters", "SimpleToolkit.UI.WinUI.Converters\SimpleToolkit.UI.WinUI.Converters.csproj", "{6C5E0FB7-9E94-4F7D-B478-190E2A2C1D10}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MSEssentials.UI.WinUI.Converters", "MSEssentials.UI.WinUI.Converters\MSEssentials.UI.WinUI.Converters.csproj", "{6C5E0FB7-9E94-4F7D-B478-190E2A2C1D10}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
